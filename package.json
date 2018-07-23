@@ -1,0 +1,28 @@
+{
+  "name": "mean-authapp",
+  "version": "1.0.0",
+  "description": "Auth app made with MEAN stack",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "keywords": [
+    "mongodb",
+    "express",
+    "angular",
+    "nodeJS"
+  ],
+  "author": "Reid Young",
+  "license": "MIT"
+}
